@@ -27,10 +27,19 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: "Guides",
+          label: "Països",
+          translations: {
+            en: "Countries",
+          },
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "guides/example" },
+            { label: "Canada", slug: "paisos/canada" },
+            {
+              label: "Japó",
+              slug: "paisos/japo",
+              translations: { en: "Japan" },
+            },
+            { label: "Índia", slug: "paisos/india" },
           ],
         },
         {
