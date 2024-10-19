@@ -43,8 +43,8 @@ export default defineConfig({
           ],
         },
         {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
+          label: "Llenguatges",
+          autogenerate: { directory: "llenguatges" },
         },
       ],
       customCss: ["./src/tailwind.css"],
